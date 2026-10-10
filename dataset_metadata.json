@@ -1,0 +1,25 @@
+{
+  "dataset_title":"Tibetan‑Senti‑8: A multi‑category annotated dataset for Tibetan sentence‑level sentiment analysis",
+  "creators":["Mgon Btsanlha","Quzhen Danzeng","Lhamo Tsewang","【作者2】","Nuo Qun"],
+  "publication_date":"2026‑10‑10",
+  "language":"Tibetan(bo)",
+  "sample_total":50000,
+  "classes":["joy","good","anger","sadness","fear","disgust","surprise","irony"],
+  "label_code_mapping":{
+    "0":"joy",
+    "1":"good",
+    "2":"anger",
+    "3":"sadness",
+    "4":"fear",
+    "5":"disgust",
+    "6":"surprise",
+    "7":"irony"
+  },
+  "data_sources":["books","website","social_media"],
+  "train_val_test_split":{"train":40000,"val":5000,"test":5000},
+  "file_formats":["json","txt"],
+  "license":"CC‑BY‑4.0",
+  "citation":"【填入你的论文Bibtex引用文本】",
+  "related_manuscript":"Tibetan‑Senti‑8:一个面向藏文句子级情感分析的八类别标注数据集",
+  "annotation_kappa":{"overall_fleiss_kappa":0.7602,"kappa_95CI":["0.7311","0.7876"]}
+}
